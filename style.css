@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.node {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    margin: 5px;
+}
+
+.node::before {
+    color
+    border-radius: 25px;
+}
